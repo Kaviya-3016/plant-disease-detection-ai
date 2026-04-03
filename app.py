@@ -3,7 +3,11 @@ import streamlit as st
 import tensorflow as tf
 import numpy as np
 from PIL import Image
-st.set_page_config(page_title="Plant Disease Detector", layout="centered")
+st.set_page_config(
+    page_title="Plant Disease Detector",
+    page_icon="🌿",
+    layout="centered"
+)
 # 🎨 Custom CSS
 st.markdown("""
     <style>
